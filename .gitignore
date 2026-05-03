@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+carepd/
+render/
+
+# Data
+data/raw/
+data/processed/
+data/renders/
+*.pkl
+*.npz
+*.fbx
+*.abc
+*.mp4
+*.avi
+
+# CARE-PD outputs
+external/CARE-PD/assets/datasets/
+external/CARE-PD/assets/Pretrained_checkpoints/
+external/CARE-PD/experiment_outs/
+external/CARE-PD/reports/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/

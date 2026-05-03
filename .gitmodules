@@ -1,0 +1,6 @@
+[submodule "external/CARE-PD"]
+	path = external/CARE-PD
+	url = https://github.com/TaatiTeam/CARE-PD.git
+[submodule "external/bedlam2_render"]
+	path = external/bedlam2_render
+	url = https://github.com/PerceivingSystems/bedlam2_render
