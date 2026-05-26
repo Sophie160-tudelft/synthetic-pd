@@ -4,3 +4,6 @@
 [submodule "external/bedlam2_render"]
 	path = external/bedlam2_render
 	url = https://github.com/PerceivingSystems/bedlam2_render
+[submodule "external/bedlam2_retargeting"]
+	path = external/bedlam2_retargeting
+	url = https://github.com/PerceivingSystems/bedlam2_retargeting.git
