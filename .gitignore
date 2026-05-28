@@ -29,3 +29,18 @@ external/CARE-PD/reports/
 # IDE
 .vscode/
 .idea/
+
+config/local_paths.json
+
+# Licensed body models - keep local only
+models/smpl/
+models/smplx/
+
+# Large model/data files
+*.pkl
+*.npz
+*.zip
+*.tar
+*.tar.gz
+*.umap
+*.uasset
