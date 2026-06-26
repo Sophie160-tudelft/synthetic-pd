@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+.venvs/
 carepd/
 render/
 
@@ -10,12 +11,20 @@ render/
 data/raw/
 data/processed/
 data/renders/
+data/metrics/
+data/videos/
+data/wham_outputs/
+
+# Results
+results/
+
 *.pkl
 *.npz
 *.fbx
 *.abc
 *.mp4
 *.avi
+*.zip
 
 # CARE-PD outputs
 external/CARE-PD/assets/datasets/
