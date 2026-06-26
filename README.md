@@ -455,18 +455,10 @@ E1 = living-room/home baseline
 **Run:**
 
 ```powershell
-python scripts\08_analyze_experiment_degradation_relative_to_baselines.py ^
-    --subject SUB01 ^
-    --sequence SUB01_off_walk_1
-```
-
-Optional condition map:
-
-```powershell
-python scripts\08_analyze_experiment_degradation_relative_to_baselines.py ^
-    --subject SUB01 ^
-    --sequence SUB01_off_walk_1 ^
-    --condition-map-csv data\experiment_condition_map.csv
+python scripts\08_analyze_experiment_degradation_relative_to_baselines.py --subject SUB01 --trial SUB01_off_walk_1
+python scripts\01_analyze_experiment_degradation_relative_to_baselines.py --subject SUB02 --trial SUB02_off_walk_2
+python scripts\08_analyze_experiment_degradation_relative_to_baselines.py --subject SUB08 --trial SUB08_off_walk_4
+python scripts\08_analyze_experiment_degradation_relative_to_baselines.py --subject SUB17 --trial SUB17_off_walk_5
 ```
 
 **Output:**
