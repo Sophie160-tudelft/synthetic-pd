@@ -24,7 +24,7 @@ synthetic-pd/
 ├── scripts/
 └── WHAM.ipynb
 ```
-The data, models and results folders can be downloaded from this URL: https://zenodo.org/records/20923762?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImNkOGY0YjM2LTJkYjMtNGZhNy04YWUxLTFlNzZlNTM3ZGIyMCIsImRhdGEiOnt9LCJyYW5kb20iOiJmZjNhMmZmMjk0MmE3MjM5MWM0NWZmNzhhZTY5NGIwNSJ9.Wcw4-XDXQ3-DR5XLNVIcGRJzNpowMAEDicKuWbn5IkFLrWKWAe-INwnzt9rRzoRX-NLCOVm23jUeoD7EzSgNHg
+The data, models and results folders can be downloaded from this URL: https://zenodo.org/records/20937241?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImUxMTk1NDE3LTc4NGYtNDgxZi1iM2M4LWUwMzFhMmZhN2Q2NiIsImRhdGEiOnt9LCJyYW5kb20iOiIwNjAyNWFlYmVjMjdmNDAxNTllZDBhMzg3YjM1YWU1NyJ9.vhN3w4zYLaZsixck5tu8fPdA41iYKolHB4Oy1EqQyU9LQzaNCLjATn-uM2p3K33EDjS_Zu6CURM1qhs8Vmfecg
 
 ## Python environment and dependencies
 
@@ -229,7 +229,7 @@ D:\Experiment_renders\<SUBJECT>\E1\*.png
 D:\Experiment_renders\<SUBJECT>\E2\*.png
 ...
 ```
-
+The folders with all render frames can be found and downloaded through this URL: https://zenodo.org/records/20937241?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImUxMTk1NDE3LTc4NGYtNDgxZi1iM2M4LWUwMzFhMmZhN2Q2NiIsImRhdGEiOnt9LCJyYW5kb20iOiIwNjAyNWFlYmVjMjdmNDAxNTllZDBhMzg3YjM1YWU1NyJ9.vhN3w4zYLaZsixck5tu8fPdA41iYKolHB4Oy1EqQyU9LQzaNCLjATn-uM2p3K33EDjS_Zu6CURM1qhs8Vmfecg
 **Run examples:**
 
 ```powershell
