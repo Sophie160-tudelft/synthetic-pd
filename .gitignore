@@ -3,19 +3,29 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+.venvs/
 carepd/
 render/
+synthetic-pd/
 
 # Data
 data/raw/
 data/processed/
 data/renders/
+data/metrics/
+data/videos/
+data/wham_outputs/
+
+# Results
+results/
+
 *.pkl
 *.npz
 *.fbx
 *.abc
 *.mp4
 *.avi
+*.zip
 
 # CARE-PD outputs
 external/CARE-PD/assets/datasets/
@@ -29,3 +39,18 @@ external/CARE-PD/reports/
 # IDE
 .vscode/
 .idea/
+
+config/local_paths.json
+
+# Licensed body models - keep local only
+models/smpl/
+models/smplx/
+
+# Large model/data files
+*.pkl
+*.npz
+*.zip
+*.tar
+*.tar.gz
+*.umap
+*.uasset

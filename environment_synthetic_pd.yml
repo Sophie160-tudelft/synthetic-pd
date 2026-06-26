@@ -1,0 +1,21 @@
+name: synthetic-pd
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy=1.26.*
+  - scipy
+  - pandas
+  - matplotlib
+  - joblib
+  - tqdm
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly
+  - pip:
+      - smplx==0.1.28
+      - opencv-python
