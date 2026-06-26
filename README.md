@@ -24,7 +24,7 @@ synthetic-pd/
 ├── scripts/
 └── WHAM.ipynb
 ```
-The data, models and results folders can be downloaded from this URL: https://zenodo.org/records/20937241?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImUxMTk1NDE3LTc4NGYtNDgxZi1iM2M4LWUwMzFhMmZhN2Q2NiIsImRhdGEiOnt9LCJyYW5kb20iOiIwNjAyNWFlYmVjMjdmNDAxNTllZDBhMzg3YjM1YWU1NyJ9.vhN3w4zYLaZsixck5tu8fPdA41iYKolHB4Oy1EqQyU9LQzaNCLjATn-uM2p3K33EDjS_Zu6CURM1qhs8Vmfecg
+The data, models and results folders can be downloaded from this URL: (https://doi.org/10.5281/zenodo.20937241)
 
 ## Python environment and dependencies
 
@@ -229,7 +229,7 @@ D:\Experiment_renders\<SUBJECT>\E1\*.png
 D:\Experiment_renders\<SUBJECT>\E2\*.png
 ...
 ```
-The folders with all render frames can be found and downloaded through this URL: https://zenodo.org/records/20937241?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImUxMTk1NDE3LTc4NGYtNDgxZi1iM2M4LWUwMzFhMmZhN2Q2NiIsImRhdGEiOnt9LCJyYW5kb20iOiIwNjAyNWFlYmVjMjdmNDAxNTllZDBhMzg3YjM1YWU1NyJ9.vhN3w4zYLaZsixck5tu8fPdA41iYKolHB4Oy1EqQyU9LQzaNCLjATn-uM2p3K33EDjS_Zu6CURM1qhs8Vmfecg
+The folders with all render frames can be found and downloaded through this URL: https://doi.org/10.5281/zenodo.20937241)
 **Run examples:**
 
 ```powershell
@@ -411,17 +411,10 @@ Main metrics include PA-MPJPE, root-aligned MPJPE, knee ROM error, contact timin
 **Run examples:**
 
 ```powershell
-python scripts\07_compare_bmclab_wham_all_experiments.py ^
-    --subject SUB01 ^
-    --trial SUB01_off_walk_1 ^
-    --wham-pkl-root data\wham_outputs ^
-    --fps-override 150
-
-python scripts\07_compare_bmclab_wham_all_experiments.py ^
-    --subject SUB02 ^
-    --trial SUB02_off_walk_2 ^
-    --wham-pkl-root data\wham_outputs ^
-    --fps-override 150
+python scripts\07_compare_bmclab_wham_all_experiments.py --subject SUB01 --trial SUB01_off_walk_1
+python scripts\07_compare_bmclab_wham_all_experiments.py --subject SUB02 --trial SUB02_off_walk_2
+python scripts\07_compare_bmclab_wham_all_experiments.py --subject SUB08 --trial SUB08_off_walk_4
+python scripts\07_compare_bmclab_wham_all_experiments.py --subject SUB17 --trial SUB17_off_walk_5
 ```
 
 Repeat for `SUB08 / SUB08_off_walk_4` and `SUB17 / SUB17_off_walk_5`.
@@ -456,7 +449,7 @@ E1 = living-room/home baseline
 
 ```powershell
 python scripts\08_analyze_experiment_degradation_relative_to_baselines.py --subject SUB01 --trial SUB01_off_walk_1
-python scripts\01_analyze_experiment_degradation_relative_to_baselines.py --subject SUB02 --trial SUB02_off_walk_2
+python scripts\08_analyze_experiment_degradation_relative_to_baselines.py --subject SUB02 --trial SUB02_off_walk_2
 python scripts\08_analyze_experiment_degradation_relative_to_baselines.py --subject SUB08 --trial SUB08_off_walk_4
 python scripts\08_analyze_experiment_degradation_relative_to_baselines.py --subject SUB17 --trial SUB17_off_walk_5
 ```
