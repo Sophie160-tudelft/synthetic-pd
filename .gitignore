@@ -6,6 +6,7 @@ venv/
 .venvs/
 carepd/
 render/
+synthetic-pd/
 
 # Data
 data/raw/
