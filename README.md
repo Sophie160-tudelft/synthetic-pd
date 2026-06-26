@@ -24,6 +24,7 @@ synthetic-pd/
 ├── scripts/
 └── WHAM.ipynb
 ```
+The data, models and results folders can be downloaded from this URL: https://zenodo.org/records/20923762?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImNkOGY0YjM2LTJkYjMtNGZhNy04YWUxLTFlNzZlNTM3ZGIyMCIsImRhdGEiOnt9LCJyYW5kb20iOiJmZjNhMmZmMjk0MmE3MjM5MWM0NWZmNzhhZTY5NGIwNSJ9.Wcw4-XDXQ3-DR5XLNVIcGRJzNpowMAEDicKuWbn5IkFLrWKWAe-INwnzt9rRzoRX-NLCOVm23jUeoD7EzSgNHg
 
 ## Python environment and dependencies
 
